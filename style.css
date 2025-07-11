@@ -1,0 +1,254 @@
+/* style.css */
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container-body {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.top-image {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.top-image-w {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.top-image2 {
+    height: 82px;
+    position: fixed;
+    top: 99px;
+}
+
+.bottom-image {
+    bottom: 0;
+    position: fixed;
+}
+
+.bottom-text {
+    bottom: 11px;
+    font-size: 16px;
+    position: fixed;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.title-h1-text {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.title-h2-text {
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.btn-big {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffde00;
+    border-radius: 22px;
+    color: #000;
+    height: 66px;
+    width: 138px;
+    margin-top: 16px;
+}
+
+.btn-text {
+    color: #000;
+    font-size: 22px;
+    text-align: center;
+}
+
+.reg-text {
+    color: #fff;
+    margin-top: 27px;
+}
+
+.input-bg {
+    font-size: 19px;
+}
+
+.button-bg,
+.input-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 22px;
+    height: 44px;
+    width: 80%;
+    margin-top: 27px;
+}
+
+.button-bg {
+    color: #fff;
+}
+
+.button-bg2 {
+    background-color: #ffde00;
+    border: none;
+    color: #000;
+}
+
+.inputList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.margin-tv {
+    margin-top: 44px;
+}
+
+.userinfo-avatar {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: 11px;
+}
+
+.content-body,
+.userinfo-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-body {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.row-center {
+    flex-direction: row;
+}
+
+.column-center,
+.row-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-center {
+    flex-direction: column;
+}
+
+.swiper-v {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 11px;
+    box-shadow: 2px 2px 5px #ccc;
+    height: 436px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+.swiperBox {
+    height: 100%;
+    width: 100%;
+}
+
+.qrNum {
+    font-size: 27px;
+    line-height: 33px;
+    margin: 11px auto auto;
+}
+
+.pNum,
+.qrNum {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.pNum {
+    font-size: 23px;
+    margin: auto;
+}
+
+.sx d 
+
+.sximg {
+    height: 19px;
+    margin-right: 4px;
+    width: 19px;
+}
+
+.qr-v {
+    display: block;
+    height: 280px;
+    margin: auto;
+    width: 280px;
+}
+
+.img-btn {
+    height: 50px;
+    width: 50px;
+}
+
+.img-wh {
+    height: 80%;
+    width: 80%;
+}
+
+.img-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 99px;
+    width: 100%;
+}
+
+.btn {
+    color: #006aed;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.btn2 {
+    border-radius: 11px;
+    box-shadow: 2px 2px 5px #ccc;
+    color: #333;
+    margin-top: 19px;
+    width: 90%;
+    font-size: 16px;
+}
+
+/* 新增的flex-box类 */
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
